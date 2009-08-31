@@ -1,0 +1,22 @@
+---
+name: Acme-SysPath
+version: 0.01
+author: []
+abstract: example distribution for Sys::Path
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  File::Spec: 0
+  IO::Any: 0
+provides:
+  Acme::SysPath:
+    file: lib/Acme/SysPath.pm
+    version: 0.01
+  Acme::SysPath::SysPathConfig:
+    file: lib/Acme/SysPath/SysPathConfig.pm
+    version: 0.01
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
